@@ -85,14 +85,14 @@
 
 .balance-container {
     display: flex;
-    justify-content: space-between; /* Espacio entre las columnas */
+    justify-content: space-between;
     align-items: center;
     margin-left: 4%;
 }
 
 .nav__balance,
 .nav__balance__right {
-    width: 48%; /* Ajusta los anchos según sea necesario */
+    width: 48%; 
     margin-top: 3vh;
     color: var(--color-4)
 }
@@ -123,4 +123,80 @@
 .nav__balance__right p {
     font-family: 'ROBOTO-BOLD';
     font-size: 2rem;
+}
+
+.White_Bar {
+    display: flex;
+    width: 45%;
+    height: 17px;
+    position: absolute;
+    left: 4%;
+    z-index: 1;
+    margin-top: 1vh; 
+}
+
+.Green_Bar {
+    display: flex;
+    width: 35%;
+    height: 17px;
+    position: absolute;
+    left: 4%;
+    z-index: 2; 
+    margin-top: 1vh;
+}
+
+.Wither {
+    display: flex;
+    width: 45%;
+    height: 17px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 1vh;
+}
+
+.Grey_Bar {
+    display: flex;
+    width: 15%;
+    height: 17px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 1vh;
+}
+
+.main {
+    margin-top: 7vh;
+    background: var(--color-4);
+    border-radius: 20%;
+}
+
+.nav__ul {
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.nav__ul li {
+    list-style: none;
+}
+
+/* .nav__ul li a {
+    background: wheat;
+} */
+
+.nav__ul li a {
+    width: 105px;
+    height: 25vh;
+    font-family: 'SF-PRO-TEXT-SEMIBOLD';
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    color: var(--color-1);
+    margin-left: 2vh;
 }

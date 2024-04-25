@@ -27,3 +27,7 @@
     font-family: 'ROBOTO-BOLD';
     src: url('../Storage/Fonts/Roboto/Roboto-Bold.ttf');
 }
+@font-face {
+    font-family: 'SF-PRO-TEXT-SEMIBOLD';
+    src: url('../Storage/Fonts/SF-Pro-Text-Semibold.otf');
+}
