@@ -9,3 +9,16 @@
 @font-face {
     font-family: 'SF-PRO-TEXT-BOLD';
     src: url('../Storage/Fonts/SF-Pro-Text-Bold.otf'); }
+
+@font-face {
+    font-family: 'SF-PRO-TEXT-HEAVY';
+    src: url('../Storage/Fonts/SF-Pro-Text-Heavy.otf');
+}
+@font-face {
+    font-family: 'SF-PRO-TEXT-LIGHT';
+    src: url('../Storage/Fonts/SF-Pro-Text-Light.otf');
+}
+@font-face {
+    font-family: 'SF-PRO-TEXT-MEDIUM';
+    src: url('../Storage/Fonts/SF-Pro-Text-Medium.otf');
+}

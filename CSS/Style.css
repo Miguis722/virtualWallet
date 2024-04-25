@@ -4,22 +4,42 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .header {
     padding: var(--space-layout-padding-lr);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    text-align: left;
     height: 50px;
     color: var(--color-4);
     font-family: 'SF-PRO-TEXT-BOLD';
+    justify-content: space-between;
 }
 
-.header {
+.body {
+    background-image: url("../Storage/Img/Group.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--color-1);
+}
+
+/* This gonna make all the bar of header turn on red  */
+ .header {
         background: red;
         /* Here we can see what space gets the section of Header */
         /* With the color, we can see the space of header. */
+}
+
+.header .header__login {
+    background: blue;
+}
+
+.header .header__information {
+    background: green;
+}
+
+.header .header__filtre {
+    background: violet;
 }
 
 .header img {
@@ -28,4 +48,56 @@
 
 .header p {
     font-size: 1.2rem;
+    margin-right: 30vh;
+}
+
+.nav__user {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-4);
+    margin-top: 3vh;
+}
+
+.nav__user p{
+    font-size: 1.8rem;
+    margin-left: 4%;
+    margin-top: 1vh;
+    font-family: 'SF-PRO-TEXT-LIGHT';
+}
+
+.nav__user span {
+    font-size: 1.9rem;
+    margin-left: 4%;
+    font-family: 'SF-PRO-TEXT-HEAVY';
+}
+
+.nav__user {
+    background: yellow;
+}
+
+.nav__user p {
+    background: purple;
+}
+
+.nav__user span {
+    background: orange;
+}
+
+.nav__balance {
+    display: flex;
+    margin-top: 3vh;
+    flex-direction: column;
+}
+
+.nav__balance {
+    background: green;
+}
+
+.nav__balance p {
+    font-size: 1rem;
+}
+
+.nav__balance span {
+    font-family: 'SF-PRO-TEXT-MEDIUM';
+    font-size: 1rem;
 }
