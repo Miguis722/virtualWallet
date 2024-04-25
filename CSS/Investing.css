@@ -1,0 +1,342 @@
+@import url(../CSS/Variable.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: var(--space-layout-padding-lr);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    height: 50px;
+    color: var(--color-4);
+    font-family: 'SF-PRO-TEXT-BOLD';
+    justify-content: space-between;
+    background-image: url("../Storage/Img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header .header__login {
+    background: white;
+}
+
+.header img {
+    height: 30px;
+}
+
+/* .header img {
+    background-color: aquamarine;
+} */
+
+.header p {
+    font-size: 1.2rem;
+    margin-right: 30vh;
+}
+
+/* .header p {
+    background-color: azure;
+} */
+
+.body {
+    background-image: url("../Storage/Img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+.Investigationandpig {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.1vh 20px 25px 20px;
+}
+
+.nav__text p {
+    font-family: 'SF-PRO-TEXT-BOLD';
+    font-size: 3.2vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.nav__container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 3vh;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px var(--color-6);
+}
+
+.Pig {
+    width: 22.5vh;
+    margin-left: 95px;
+    margin-top: 25px;
+}
+
+.nav__text__right {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+.text__right {
+    align-items: center;
+    padding: 3.5vh 5vh 1vh 2vh;
+    margin-left: -29px;
+}
+
+.text__right .Tittle_nav {
+    font-family: 'SF-PRO-TEXT-BOLD';
+    font-size: 3vh;
+    margin-bottom: 1vh;
+}
+
+.text__right .author {
+    font-family: 'SF-PRO-TEXT-REGULAR';
+    margin-bottom: 1vh;
+    color: var(--color-3)
+}
+
+.text__right
+.nav__images__container,
+.nav__text__right {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.nav__text__right .nav__button {
+    font-family: 'SF-PRO-TEXT-BOLD';
+    color: var(--color-4);
+}
+
+.nav__text__right .nav__button {
+    background: var(--color-2);
+    border-radius: 210px;
+    font-size: 1.6vh;
+    margin-top: 2vh;
+    height: 5vh;
+    width: 25vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    border-width: 0;
+}
+
+  .nav__images__container {
+    background: var(--color-5);
+    border-radius: 200px;
+    border-top-right-radius: 140px ;
+    border-bottom-right-radius: 140px;
+    overflow: hidden;
+    width: 300px;
+    margin-left: -89px;
+    margin-right: 10px;
+}
+
+.nav__images__container .Pig {
+    height: 15vh;
+    width: 15vh;
+}
+
+.X_Button {
+    height: 5vh;
+    width: 5vh;
+    margin-left: -30px;
+    margin-top: -9px;
+}
+
+.star img {
+    height: 3vh;
+    display: flex;
+    position: relative;
+    margin-left: 52px;
+    margin-top: -50px;
+}
+
+.spot_black img {
+    height: 1vh;
+    display: flex;
+    position: relative;
+    margin-left: 100px;
+    margin-top: -130px;
+}
+
+.spot_white img {
+    height: 1.2vh;
+    display: flex;
+    position: relative;
+    margin-left: 17px;
+    margin-top: -120px;
+}
+
+
+/* .nav__images {
+    background: olivedrab;
+}
+
+
+.nav__tips {
+    background: yellow;
+}
+
+
+.nav__text {
+    background: yellowgreen;
+}
+
+
+
+
+
+
+
+
+/* Card header style */
+.letters {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-left: 2vh;
+    font-family: 'SF-PRO-TEXT-BOLD';
+    font-size: 3vh;
+}
+
+ .main {
+    background-color: blueviolet;
+}
+
+/* Style for the main container or where the cards themselves will go */
+.main {
+    margin-top: 2vh;
+    margin-left: 2vh;
+    width: 100%; /* So that it takes up the entire width of the screen */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    overflow-y: hidden; /* Avoid vertical scrolling */
+}
+
+/* Style for the card container */
+.cards__container {
+    display: flex;
+    flex-direction: row; /* Arrange in row for horizontal viewing */
+    gap: 5vh; /* Card Spacing */
+    flex-wrap: nowrap; /* Prevent cards from being wrapped */
+    width: 100%; /* Fill the entire width of the container */
+    overflow-x: scroll;
+    flex-shrink: 0;
+}
+
+/* FLEX-SHRINK ===== is used to control the ability of a flex element
+ to reduce its size if necessary to fit inside its flex container. */
+
+
+/* Style for individual cards */
+.card {
+    width: 25vh; /* Width of each card */
+    height: 37vh; /* Height of each card */
+    background-color: #f5f5f5; /* Color de fondo por defecto */
+    padding: 1vh; /* Espaciado interno */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaciado entre elementos de la tarjeta */
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para el número de cuenta */
+.Number_account {
+    display: flex;
+    font-family: 'SF-PRO-TEXT-SEMIBOLD';
+    font-size: 2vh;
+    justify-content: right;
+}
+
+/* Estilo para el ícono de PIN */
+.PIN {
+    height: 4vh; /* Altura del ícono */
+    width: 5vh;
+    width: auto;
+}
+
+/* Estilo para la cantidad */
+.Amount {
+    font-family: 'SF-PRO-TEXT-BOLD';
+    text-align: center; /* Centrando el texto */
+    font-size: 2.5vh; /* Tamaño del texto */
+}
+
+/* Estilo para el pie de página de la tarjeta */
+.card_footer {
+    display: flex;
+    justify-content: left; /* Centrando el ícono de la tarjeta */
+}
+
+/* Estilo para los icons de tarjeta (Visa, Mastercard, Amex, etc.) */
+.Mastercard, .Visa, .Amex, .Discover, .Bancolombia, .Bancocajasocial{
+    height: 5vh;
+    width: 5vh;
+}
+
+.PIN {
+    display: flex;
+    justify-content: left;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__ul {
+    background: var(--color-1);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer__ul li {
+    list-style: none;
+    display: flex;
+}
+
+.footer__ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.footer__ul li a img {
+    width: 5vh;
+}
+
+.green_Button{
+    position: absolute;
+    bottom: 0.7vh;
+    transform: translateX(-425%);
+    height: 1vh;
+    width: 1vh;
+    display: flex; 
+}
