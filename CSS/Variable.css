@@ -22,3 +22,8 @@
     font-family: 'SF-PRO-TEXT-MEDIUM';
     src: url('../Storage/Fonts/SF-Pro-Text-Medium.otf');
 }
+
+@font-face {
+    font-family: 'ROBOTO-BOLD';
+    src: url('../Storage/Fonts/Roboto/Roboto-Bold.ttf');
+}
