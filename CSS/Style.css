@@ -167,6 +167,14 @@
     margin-top: 7vh;
     background: var(--color-4);
     border-radius: 20%;
+    height: auto;
+    width: 100%;
+}
+
+.actividades p {
+    margin-left: 4%;
+    font-family: 'SF-PRO-TEXT-BOLD';
+    color: var(--color-1)
 }
 
 .nav__ul {
@@ -175,7 +183,6 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    overflow-x: scroll;
 }
 
 .nav__ul li {
@@ -188,15 +195,30 @@
 
 .nav__ul li a {
     width: 105px;
-    height: 25vh;
+    height: 20vh;
     font-family: 'SF-PRO-TEXT-SEMIBOLD';
     text-decoration: none;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5px;
     padding: 5px;
     border-radius: 8px;
-    border: 1px solid black;
+    border: 1px solid var(--color-3);
     color: var(--color-1);
     margin-left: 2vh;
+    background: var(--color-4);
+    flex-direction: column;
+}
+
+.nav__ul li a:hover {
+    background: var(--color-2);
+    transition: all 0.2s linear 0.3s;
+    color: var(--color-5);
+}
+
+.Transactions {
+    margin-left: 4%;
+    font-family: 'SF-PRO-TEXT-BOLD';
+    color: var(--color-1)
 }
