@@ -3,6 +3,7 @@
     --color-2: #00DDA3;
     --color-3: #B5C5C3;
     --color-4: #FFFFFF;
+    --color-5: #E1FFEF;
     --space-layout-padding-lr: 0px 15px;
 }
 
@@ -30,4 +31,8 @@
 @font-face {
     font-family: 'SF-PRO-TEXT-SEMIBOLD';
     src: url('../Storage/Fonts/SF-Pro-Text-Semibold.otf');
+}
+@font-face {
+    font-family: 'SF-PRO-TEXT-REGULAR';
+    src: url('../Storage/Fonts/SF-Pro-Text-Regular.otf');
 }
