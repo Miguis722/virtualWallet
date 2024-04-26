@@ -24,23 +24,23 @@
 }
 
 /* This gonna make all the bar of header turn on red  */
- .header {
-        background: red;
+ /* .header {
+        background: red; */
         /* Here we can see what space gets the section of Header */
         /* With the color, we can see the space of header. */
-}
+/* } */
 
-.header .header__login {
+/* .header .header__login {
     background: blue;
-}
+} */
 
-.header .header__information {
+/* .header .header__information {
     background: green;
-}
+} */
 
-.header .header__filtre {
+/* .header .header__filtre {
     background: violet;
-}
+} */
 
 .header img {
     height: 30px;
@@ -71,17 +71,17 @@
     font-family: 'SF-PRO-TEXT-HEAVY';
 }
 
-.nav__user {
+/* .nav__user {
     background: yellow;
-}
+} */
 
-.nav__user p {
+/* .nav__user p {
     background: purple;
-}
+} */
 
-.nav__user span {
+/* .nav__user span {
     background: orange;
-}
+} */
 
 .balance-container {
     display: flex;
@@ -97,9 +97,9 @@
     color: var(--color-4)
 }
 
-.nav__balance {
+/* .nav__balance {
     background: green;
-}
+} */
 
 .nav__balance span {
     font-family: 'SF-PRO-TEXT-MEDIUM';
@@ -111,9 +111,9 @@
     font-size: 2rem;
 }
 
-.nav__balance__right {
+/* .nav__balance__right {
     background: #83ba5e;
-}
+} */
 
 .nav__balance__right span {
     font-family: 'SF-PRO-TEXT-MEDIUM';
@@ -163,32 +163,20 @@
     margin-top: 1vh;
 }
 
-/* .main .main_box {
-    margin-top: 3vh;
-    padding: 3vh;
-    padding-top: 5vh;
-    background: var(--color-4);
-    border-radius: 20%;
-    height: 100%;
-    width: 100%;
-    border-top-right-radius: 5vh;
-    border-top-left-radius: 5vh;
-} */
-
 .main_box {
     height:100%;  
     width: 100%;
     background: var(--color-4); 
     padding:3vh;
     padding-top: 5vh;
-    margin-top: 8vh;         
+    margin-top: 6vh;         
     border-top-left-radius: 5vh;     
     border-top-right-radius: 5vh;
 }
 
 .actividades {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .actividades p {
@@ -202,6 +190,7 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    margin-bottom: 7vh;
 }
 
 .nav__ul li {
@@ -248,17 +237,18 @@
 }
 
 .nav__transactions {
-    background: maroon;
     padding: var(--space-layout-padding-lr);
     display: grid;
     grid-template-columns: auto 1fr auto;
     gap: 10px; 
     align-items: center;
     height: 50px;
+    margin-top: -1vh;
+    margin-bottom: 1vh;
 }
 
-/* .nav__transactions .transactions_up {
-    /* La imagen se mantendrá a la izquierda
+/* .nav__transactions {
+    /* background: maroon; 
 } */
 
 .nav__transactions .transactions_text {
@@ -296,21 +286,13 @@
     font-size: 1.5vh;
 }
 
+.Money_Icon {
+    height: 6vh;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Money_Icon_down {
+    height: 6vh;
+}
 
 .footer {
     position: fixed;
@@ -320,7 +302,7 @@
 
 .footer__ul {
     background: var(--color-1);
-    height: 70px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -341,7 +323,7 @@
 }
 
 .footer__ul li a img {
-    width: 7vh;
+    width: 5vh;
 }
 
 .green_Button{
