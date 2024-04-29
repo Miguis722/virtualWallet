@@ -44,22 +44,49 @@
     background-color: var(--color-4);
 }
 
+.Investigationandpig {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
+.nav__text p {
+    font-family: 'SF-PRO-TEXT-BOLD';
+    font-size: 3.2vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
 .nav__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 2vh;
-    margin-left: 2vh;
+    border-radius: 3vh;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px var(--color-6);
 }
 
+.Pig {
+    width: 40%;
+}
 
-.nav__images__container {
-    height: 29vh;
-    width: 29vh;
+.nav__text__right {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+.text__right {
     align-items: center;
-    margin-left: -1vh;
+    padding: 3.5vh 0vh 2vh 2vh;
+}
+
+.text__right .Tittle_nav {
+    font-family: 'SF-PRO-TEXT-BOLD';
+    font-size: 3vh;
+}
+
+.text__right .author {
+    font-family: 'SF-PRO-TEXT-REGULAR';
 }
 
 .nav__images__container,
@@ -68,7 +95,27 @@
     padding: 20px;
 }
 
-.nav__images__container {
+
+.nav__text__right .nav__button {
+    font-family: 'SF-PRO-TEXT-BOLD';
+    color: var(--color-4);
+}
+
+.nav__text__right .nav__button {
+    background: var(--color-2);
+    border-radius: 210px;
+    font-size: 1.9vh;
+    height: 5vh;
+    width: 25vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    border-width: 0;
+}
+
+  .nav__images__container {
     background: var(--color-5);
     border-radius: 90px;
     overflow: hidden;
@@ -78,7 +125,7 @@
     width: 15vh;
 }
 
-
+/*
 .nav__text__right {
     background-color: yellow;
     display: flex;
@@ -87,7 +134,7 @@
     align-items: center;
     margin-bottom: 2vh;
     margin-top: 2vh;
-}
+} */
 
 
 /* .nav__images {
@@ -130,49 +177,96 @@
     display: flex;
 } */
 
-.nav__text {
-    width: 100%; 
-    text-align: left;
-}
 
-.nav__text p{
-    font-family: 'SF-PRO-TEXT-BOLD';
-    font-size: 3.2vh;
-    margin-left: 2vh;
+
+
+
+/* Card header style */
+.letters {
     margin-top: 2vh;
-    margin-bottom: 3vh;
-}
-
-.nav__text__right .Tittle_nav {
+    margin-left: 2vh;
     font-family: 'SF-PRO-TEXT-BOLD';
     font-size: 3vh;
 }
 
-.nav__text__right .author {
-    font-family: 'SF-PRO-TEXT-REGULAR';
+ .main {
+    background-color: blueviolet;
 }
 
-.nav__text__right .nav__button {
-    font-family: 'SF-PRO-TEXT-BOLD';
-    color: var(--color-4);
+/* Style for the main container or where the cards themselves will go */
+.main {
+    margin-top: 2vh;
+    margin-left: 2vh;
+    width: 100%; /* So that it takes up the entire width of the screen */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    overflow-y: hidden; /* Avoid vertical scrolling */
 }
 
-.nav__text__right .nav__button {
-    background: var(--color-2);
-    border-radius: 210px;
-    font-size: 1.9vh;
-    height: 5vh;
-    width: 25vh;
+/* Style for the card container */
+.cards__container {
     display: flex;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    text-decoration: none;
-    border-width: 0;
+    flex-direction: row; /* Arrange in row for horizontal viewing */
+    gap: 5vh; /* Card Spacing */
+    flex-wrap: nowrap; /* Prevent cards from being wrapped */
+    width: 100%; /* Fill the entire width of the container */
 }
 
+/* Style for individual cards */
+.card {
+    width: 20vh; /* Width of each card */
+    height: 40vh; /* Height of each card */
+    background-color: #f5f5f5; /* Color de fondo por defecto */
+    padding: 1vh; /* Espaciado interno */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaciado entre elementos de la tarjeta */
+    border-radius: 10px;
+}
 
+.card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+/* Estilo para el número de cuenta */
+.Number_account {
+    display: flex;
+    font-family: 'SF-PRO-TEXT-SEMIBOLD';
+    font-size: 2vh;
+    justify-content: right;
+}
+
+/* Estilo para el ícono de PIN */
+.PIN {
+    height: 4vh; /* Altura del ícono */
+    width: 5vh;
+    width: auto;
+}
+
+/* Estilo para la cantidad */
+.Amount {
+    font-family: 'SF-PRO-TEXT-BOLD';
+    text-align: center; /* Centrando el texto */
+    font-size: 2.5vh; /* Tamaño del texto */
+}
+
+/* Estilo para el pie de página de la tarjeta */
+.card_footer {
+    display: flex;
+    justify-content: left; /* Centrando el ícono de la tarjeta */
+}
+
+/* Estilo para los íconos de tarjeta (Visa, Mastercard, Amex, etc.) */
+.Mastercard, .Visa, .Amex, .Discover {
+    height: 5vh;
+    width: 5vh;
+}
+
+.PIN {
+    display: flex;
+    justify-content: left;
+}
 
 
 .footer {
