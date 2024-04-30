@@ -284,7 +284,7 @@
 }
 
 /* Estilo para los íconos de tarjeta (Visa, Mastercard, Amex, etc.) */
-.Mastercard, .Visa, .Amex, .Discover {
+.Mastercard, .Visa, .Amex, .Discover, .Bancolombia, .Bancocajasocial{
     height: 5vh;
     width: 5vh;
 }
