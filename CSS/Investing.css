@@ -44,10 +44,16 @@
     background-color: var(--color-4);
 }
 
+
+
+
+
+
 .Investigationandpig {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 0.1vh 20px 25px 20px;
 }
 
 .nav__text p {
@@ -57,6 +63,7 @@
     margin-top: 2vh;
     margin-bottom: 3vh;
 }
+
 .nav__container {
     display: flex;
     flex-direction: row;
@@ -66,7 +73,7 @@
 }
 
 .Pig {
-    width: 40%;
+    width: 22.5vh;
 }
 
 .nav__text__right {
@@ -77,18 +84,21 @@
 
 .text__right {
     align-items: center;
-    padding: 3.5vh 0vh 2vh 2vh;
+    padding: 3.5vh 5vh 1vh 2vh;
 }
 
 .text__right .Tittle_nav {
     font-family: 'SF-PRO-TEXT-BOLD';
     font-size: 3vh;
+    margin-bottom: 1vh;
 }
 
 .text__right .author {
     font-family: 'SF-PRO-TEXT-REGULAR';
+    margin-bottom: 1vh;
 }
 
+.text__right
 .nav__images__container,
 .nav__text__right {
     flex: 1;
