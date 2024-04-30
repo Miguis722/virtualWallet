@@ -283,7 +283,7 @@
     justify-content: left; /* Centrando el ícono de la tarjeta */
 }
 
-/* Estilo para los íconos de tarjeta (Visa, Mastercard, Amex, etc.) */
+/* Estilo para los icons de tarjeta (Visa, Mastercard, Amex, etc.) */
 .Mastercard, .Visa, .Amex, .Discover, .Bancolombia, .Bancocajasocial{
     height: 5vh;
     width: 5vh;
