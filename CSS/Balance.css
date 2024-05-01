@@ -39,7 +39,100 @@
 
 
 
+.Total__Balance {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    background-image: url('../Storage/Img/starrynight.png'); 
+    border-radius: 50%;
+    height: 25vh; 
+    width: 25vh;
+    margin: 0 auto; 
+    margin-top: 2vh; 
+    overflow: hidden;
+}
 
+ .nav_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100%;
+    color: var(--color-4)
+}
+
+.nav_text p, .nav_text span {
+    font-family: 'SF-PRO-TEXT-BOLD';
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+/* Ensures subsequent elements are below the circle */
+.Money_Money_Money {
+    margin-top: 3vh;
+}
+
+.nav__ul__Sections {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav__ul__Sections li {
+    margin-right: 15px;
+}
+
+.nav__ul__Sections li:first-child{
+    margin-left: 2.5vh;
+}
+
+.nav__ul__Sections li a{ 
+    display: flex;
+    flex-direction: row;
+    width: 15vh;
+    height: 5vh;
+    font-family: 'SF-PRO-TEXT-BOLD';
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 8px;
+    color: var(--color-1);
+    margin-left: 1vh;
+    background: var(--color-4);
+}
+
+.nav__ul__Sections li a:hover {
+    background: #9a9a9a;
+    transition: all 0.2s linear 0.3s;
+    color: #9a619f;
+}
+
+/* border: 1px solid var(--color-1); */
+
+/* .Assets {
+    color: var(--color-4);
+    background: var(--color-1);
+    border-radius: 50%;
+    align-items: center;
+}
+
+.Debt {
+    color: var(--color-4);
+    background: var(--color-1);
+    border-radius: 50%;
+
+    align-items: center;
+}
+
+.Income {
+    color: var(--color-4);
+    background: var(--color-1);
+    border-radius: 50%;
+    height: 5vh;
+    width: 10vh;
+    align-items: center;
+} */
 
 
 
