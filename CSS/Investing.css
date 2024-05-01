@@ -13,14 +13,18 @@
     align-items: center;
     text-align: left;
     height: 50px;
-    color: var(--color-1);
+    color: var(--color-4);
     font-family: 'SF-PRO-TEXT-BOLD';
     justify-content: space-between;
+    background-image: url("../Storage/Img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-/* .header {
-    background-color: aqua;
-} */
+.header .header__login {
+    background: white;
+}
 
 .header img {
     height: 30px;
@@ -40,8 +44,9 @@
 } */
 
 .body {
+    background-image: url("../Storage/Img/Background.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-color: var(--color-4);
 }
 
 
