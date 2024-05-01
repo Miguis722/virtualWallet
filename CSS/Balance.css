@@ -73,6 +73,7 @@
     margin-top: 3vh;
 }
 
+
 .nav__ul__Sections {
     display: flex;
     flex-direction: row;
@@ -80,6 +81,7 @@
 }
 .nav__ul__Sections li {
     margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 .nav__ul__Sections li:first-child{
@@ -103,7 +105,7 @@
 }
 
 .nav__ul__Sections li a:hover {
-    background: #9a9a9a;
+    background: var(--color-2);
     transition: all 0.2s linear 0.3s;
     color: #9a619f;
 }
@@ -166,6 +168,7 @@
     flex-direction: column;
     width: 100%;
     box-shadow: 0px 0px 20px var(--color-1);
+    margin-top: -7px;
 }
 
 .nav__text__Spending p {
