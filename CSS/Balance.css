@@ -110,29 +110,121 @@
 
 /* border: 1px solid var(--color-1); */
 
-/* .Assets {
-    color: var(--color-4);
-    background: var(--color-1);
-    border-radius: 50%;
+.Assets p {
+    color: var(--color-1);
     align-items: center;
+    text-align: center;
+     
 }
 
-.Debt {
+.Debt p {
     color: var(--color-4);
-    background: var(--color-1);
-    border-radius: 50%;
-
     align-items: center;
+    text-align: center;
+
 }
 
-.Income {
+.Income p {
     color: var(--color-4);
-    background: var(--color-1);
-    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Spending__Footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0px 0px 20px var(--color-1);
+}
+
+.nav__text__Spending p {
+    font-family: 'SF-PRO-TEXT-BOLD';
+    font-size: 3.2vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.Images__container img {
+    width: 5vh;
     height: 5vh;
-    width: 10vh;
+}
+
+.nav__Spending {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    background: #6c6cd9;
+}
+
+
+.nav__text__right__Spending {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+.text__right__Spending {
     align-items: center;
-} */
+    padding: 3.5vh 5vh 1vh 2vh;
+    margin-left: -29px;
+}
+
+.text__right__Spending .Tittle_nav__Spending {
+    font-family: 'SF-PRO-TEXT-BOLD';
+    font-size: 4vh;
+    margin-bottom: 1vh;
+    text-align: left;
+}
+
+.text__right__Spending .tex__nav__Spending {
+    font-family: 'SF-PRO-TEXT-REGULAR';
+    margin-bottom: 1vh;
+}
+
+.tex__nav__Spending {
+    text-align: justify;
+    font-size: 1rem;
+    color: #FFFF;
+}
+
+.text__right__Spending,
+.Images__container,
+.nav__text__right__Spending {
+    flex: 1;
+}
+
+.Images__container img {
+    height: 25vh;
+    width: 25vh;
+    margin-bottom: -5px;
+}
+
+.nav__exit_button__Spending {
+    position: absolute;
+    top: 15; 
+    right: 0; 
+    padding: 1vh; 
+}
+
+.X_Button__Spending {
+    height: 5vh;
+    width: 5vh;
+}
+
+
+
+
 
 
 
