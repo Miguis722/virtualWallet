@@ -131,11 +131,32 @@
 }
 
 
+.Image__Graphic__Container .Balance__Graphic {
+    height: 30vh;
+    width: 100%;
+    padding: 30px;
+    margin-top: -25px;
+}
 
+.Days_Of_The_Week__Graphic {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: auto;
+    font-family: 'SF-PRO-TEXT-MEDIUM';
+    align-items: center;
+    justify-content: space-around;
+    background: #FFFF;
+    margin-top: -40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 7px;
+}
 
-
-
-
+.Days_Of_The_Week__Graphic a {
+    text-decoration: none;
+    color: var(--color-1);
+}
 
 
 

@@ -195,9 +195,11 @@
 
 .nav__text {
     background: yellowgreen;
+} */
+
+.nav__text__right a {
+    text-decoration: none;
 }
-
-
 
 
 
