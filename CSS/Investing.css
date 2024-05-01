@@ -120,7 +120,7 @@
 }
 
 .nav__text__right .nav__button {
-    background: var(--color-2);
+    background: #9a619f;
     border-radius: 210px;
     font-size: 1.6vh;
     margin-top: 2vh;
@@ -136,7 +136,7 @@
 }
 
   .nav__images__container {
-    background: var(--color-5);
+    /* background: var(--color-5); */
     border-radius: 200px;
     border-top-right-radius: 140px ;
     border-bottom-right-radius: 140px;
@@ -213,9 +213,9 @@
     font-size: 3vh;
 }
 
- .main {
+ /* .main {
     background-color: blueviolet;
-}
+} */
 
 /* Style for the main container or where the cards themselves will go */
 .main {
@@ -235,6 +235,11 @@
     width: 100%; /* Fill the entire width of the container */
     overflow-x: scroll;
     flex-shrink: 0;
+    color: var(--color-4);
+}
+
+.card:hover {  
+    transform: scale(1.1);
 }
 
 /* FLEX-SHRINK ===== is used to control the ability of a flex element
@@ -245,7 +250,7 @@
 .card {
     width: 25vh; /* Width of each card */
     height: 37vh; /* Height of each card */
-    background-color: #f5f5f5; /* Color de fondo por defecto */
+    background-image: url("../Storage/Img/Background.jpg"); /* Color de fondo por defecto */
     padding: 1vh; /* Espaciado interno */
     display: flex;
     flex-direction: column;
